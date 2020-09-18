@@ -13,7 +13,7 @@
     <div class="expl">This is just a solution for final assignment. Please, just fill in form.</div>
     <div class="forms">
         <div>
-            <form>
+            <form onsubmit="printInfo();">
 <!--                Validation checks Name, Last name and country.-->
                 First name: <span class="checked"></span><br>
                 <input id="name" type="text" name="firstname" onblur="validName();" required><br>
@@ -30,7 +30,7 @@
                 Do you like this form?: <br>
                 <input class="radio" type="radio" name="like" value="Yes" checked>Yes<br>
                 <input class="radio" type="radio" name="like" value="No">No<br>
-                <input id="sub" type="submit" value="Submit" onclick="printInfo()">
+                <input id="sub" type="submit" value="Submit">
             </form>
         </div>
     </div>

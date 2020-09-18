@@ -22,7 +22,7 @@ input {
 #sub {
     margin-top: 30px;
     width: 10%;
-    cursor: not-allowed;
+    /*cursor: not-allowed;*/
 }
 .checked {
     color: green;
