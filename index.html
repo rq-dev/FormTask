@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+<div class="Main">
+    <div><img src="death-and-decay.png"> </div>
+    <div class="greet">Please, fill in form down below!</div>
+    <div class="expl">This is just a solution for final assignment. Please, just fill in form.</div>
+    <div class="forms">
+        <div>
+            <form>
+<!--                Validation checks Name, Last name and country.-->
+                First name: <span class="checked"></span><br>
+                <input id="name" type="text" name="firstname" onblur="validName();" required><br>
+                Last name: <span class="checkedLastName"></span><br>
+                <input id="l_name" type="text" name="lastname" onblur="validLName();" required><br>
+                Birth date: <br>
+                <input id="date" type="date" name="birth" required><br>
+                Email: <br>
+                <input id="mail" type="email" name="email" required><br>
+                Phone number: <br>
+                <input id="tel" type="tel" name="phone" required><br>
+                Country: <br>
+                <input id="country" type="text" name="country" pattern="^[A-Za-z]*$" required><br>
+                Do you like this form?: <br>
+                <input class="radio" type="radio" name="like" value="Yes" checked>Yes<br>
+                <input class="radio" type="radio" name="like" value="No">No<br>
+                <input id="sub" type="submit" value="Submit" onclick="printInfo()">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

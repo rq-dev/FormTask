@@ -1,0 +1,48 @@
+body {
+    background-color: maroon;
+}
+.greet {
+    font-weight: bold;
+    color: chartreuse;
+    font-size: 40px;
+    text-align: center;
+}
+.forms {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+input {
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+}
+#sub {
+    margin-top: 30px;
+    width: 10%;
+    cursor: not-allowed;
+}
+.checked {
+    color: green;
+}
+.Main {
+    font-size: 40px;
+    color: lawngreen;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.radio {
+    width: unset;
+    height: unset;
+    text-align: unset;
+    margin: unset;
+}
+.expl {
+    font-weight: bold;
+    color: darkgoldenrod;
+    font-size: 20px;
+    text-align: center;
+}
