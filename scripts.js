@@ -1,6 +1,6 @@
 function validName(){
     var name = document.getElementById("name").value;
-    var pattern =/^[A-Za-z]*$/;
+    var pattern =/^[A-Za-z]+$/;
     if (pattern.test(name)) {
         // document.getElementById("sub").style.cursor="unset";
         document.querySelector(".checked").style.color="green";
@@ -15,7 +15,7 @@ function validName(){
 
 function validLName(){
     var name = document.getElementById("l_name").value;
-    var pattern =/^[A-Za-z]*$/;
+    var pattern =/^[A-Za-z]+$/;
     if (pattern.test(name)) {
         // document.getElementById("sub").style.cursor="unset";
         document.querySelector(".checkedLastName").style.color="green";
